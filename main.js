@@ -53,7 +53,7 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
     try { ppimg = await client.getProfilePicture(`${num.split('@')[0]}@c.us`)
     } catch {ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
     }
-    thu = await leo.getStatus(anu.participants[0], MessageType.text)
+    thu = await client.getStatus(anu.participants[0], MessageType.text)
     teks = 
 `👑 *NUEVO ADMIN* 👑
 👤 *Nombre:* @${num.split('@')[0]}
