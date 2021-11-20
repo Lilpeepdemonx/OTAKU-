@@ -43,8 +43,8 @@ try {pushnem = choute.key.fromMe ? client.user.name : conts.notify || conts.vnam
     ppimg = 'https://centromedicomontemar.cl/wp-content/uploads/2015/06/sin-perfil.png'}  
     
     teks = 
-`😙Hola, @${num.split('@')[0]}
-*Bienvenido a ${mdata.subject}
+`😈Hola, @${num.split('@')[0]}
+*Eres Bienvenido a ${mdata.subject}
     
 Esperemos la pases bien y te gust el grupo.
 Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
