@@ -21,7 +21,7 @@ const client = conn.client
 
 //Src
 const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
-//
+//BIENVENIDOS HA LA LEGION 
 client.on('group-participants-update', async (anu) => {
     const _welcom= JSON.parse(fs.readFileSync('./src/welkom.json'))
 
