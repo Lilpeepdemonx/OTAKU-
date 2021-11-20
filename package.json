@@ -1,7 +1,7 @@
 {
-  "name": "BabyBechoso",
+  "name": "BOT DE LEGIONARIO",
   "version": "0.0.0",
-  "description": "",
+  "description": "HOLA PERROS",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
