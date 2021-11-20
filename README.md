@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./media/image(5).jpg" width="400" height="400"/>
+<img src="./media/image(5).jpg" width="300" height="300"/>
 </p>
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: ꧁༒☬ＯＴＡＫＵৡ☬༒꧂
 
