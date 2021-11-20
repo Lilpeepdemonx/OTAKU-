@@ -20,11 +20,11 @@ Instala archivos necesarios
 ```
 Clona este repositorio
  ```bash
-> git clone https://github.com/thechoute/Base
+> git clone https://github.com/Lilpeepdemonx/OTAKU-
 ```
 Inicia la instalacion
 ```bash
-- cd Base
+- cd OTAKU-
 - bash install.sh
 ```
 PARA INICIAR EL BOT
