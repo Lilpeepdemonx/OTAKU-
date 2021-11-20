@@ -54,7 +54,7 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
 🌎 *Grupo:* ${mdata.subject}
 *Felicitaciones eres uno de los administradores.*`
    let buff = await getBuffer(ppimg)
-    leo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+    client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
     } else if (anu.action == 'demote') {
     num = anu.participants[0]
     try {
