@@ -38,7 +38,7 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
     num = anu.participants[0]
   
     teks = `
-    @${num.split('@')[0]} Adios no se te extrañara, no comas nada del suelo que estan envenenando a los perros.`
+    @${num.split('@')[0]} ADIOS NO VUELVAS ESTAREMOS MEJOR SIN TI JAJA UNO ESTORBO MENOS.`
     client.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
   
     } else if (anu.action == 'promote') {
