@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./media/imagen.jpeg" width="140" height="140"/>
+<img src="./media/image.jpg" width="140" height="140"/>
 </p>
 <p align="center">
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: 𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊
