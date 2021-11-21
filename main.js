@@ -291,6 +291,26 @@ case 'welcome':
               reply(`*BIENVENIDAS*\n\n*${prefix + command} on* para activar\n*${prefix + command} off* para desactivar`)
               }
               break
+case 'menu':
+            txtt =`${menu}`              
+                      sendButLocation(from, `${chui}`, `© Creator`, fs.readFileSync("./media/imagen/baby.jpg"),
+                      buttons1 = [{buttonId:`listamenu`,buttonText:{displayText: 'boton'},type:1},], 
+                      {contextInfo: { mentionedJid: [sender,Owner]}})
+                      prep = client.prepareMessageFromContent(from, { buttonsMessage }, { quoted: mek })
+                      client.relayWAMessage(prep)
+                      break
+
+case 'menu1'
+txtt =`${menu}`
+buttons1 = [{buttonId:`A`,buttonText:{displayText: 'Boton'},type:1},]
+imageMsg = (await client.prepareMessageMedia(fs.readFileSync(`./media/imagen/fake.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
+buttonsMessage = {
+contentText: `${txtt}`,
+footerText: '© Creator ', imageMessage: imageMsg,
+buttons: buttons1,
+headerType: 4}
+prep = client.prepareMessageFromContent(from, { buttonsMessage }, { quoted: mek })
+client.relayWAMessage(prep)
 case 'bot':
 client.sendMessage(from, 'Hola, felicidades, has logrado enviar un mensaje mediante un servidor externo😚', text, {quoted: { key: {
 fromMe: false,
@@ -299,7 +319,19 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : 
 message: {
 "documentMessage": { "title": "𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊", 'jpegThumbnail': fs.readFileSync('./media/logo.jpg')}}
 }})
-break		
+break
+//CONST
+const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
+    kma = gam1
+  const buttonMessages = {
+  locationMessage: {jpegThumbnail: kma},
+  contentText: text1,
+  footerText: desc1,
+  buttons: but,
+  headerType: 6
+  }
+  client.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+  }		
 case 'foto':
 const imagen = fs.readFileSync('./media/foto.jpg')                
 client.sendMessage(from, imagen, MessageType.image, {quoted: mek, caption: `*Aqui tienes la foto del trio fundado*`})
