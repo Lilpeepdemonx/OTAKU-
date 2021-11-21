@@ -168,7 +168,107 @@ client.sendMessage(from, 'como estas!', MessageType.text, {quoted: mek})
 if(body == ('Hola')) {
 client.sendMessage(from, 'Hola? Te haz podido comunicar.', MessageType.text, {quoted: mek})
 }
+const menu =           
+                                        
 
+`    ╭─────────☟︎︎︎──────────
+     |𝙷𝙾𝙻𝙰 ${pushname}  𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾 𝙰𝙻         
+     |           ꧁𝙼𝙴𝙽𝚄꧂
+     └────────────────────
+              ╭──────────
+              |  ♲︎︎︎𝚆𝙴𝙻𝙻𝙲𝙾𝙼♲︎︎︎   |
+              ╰──────────
+          
+     ╭──────[ #SOPORTE ]
+      |
+      |➪#Reglas: #reglas
+      |
+      [➪#Estado: #infobot
+      [
+      [➪#Creador: #creador
+      [
+      [➪#Registro: #reg
+      [
+      [➪#Unir a Gp: #entrabot [+link]
+      [
+     └──────[𝖔𝖙𝖆𝖐𝖚]
+
+     ╭─────[ #ADMIN# ]─────            
+      [
+      [➪#Bienvenida: #welcome   
+      [
+      [➪#Antilink: #antilink
+      [
+      [➪#Eliminar: #kick
+      [
+      [➪#Promover: #promote
+      [      
+      [➪#Degradar: #demote
+      [
+      [➪#Abri GP: #grupo abrir
+      [
+      [➪#Cerrar: #grupo cerrar
+      [
+      [➪# Cambiar name Gp: #nombre     
+      [
+      [➪#Canbiar descrpcion del Gp:  
+      [    #descripcion
+      [
+      [➪#Mencionar: #hidetag 
+      [
+      [➪#Lista miembros: #todos 
+      [
+     └──────[𝖔𝖙𝖆𝖐𝖚]──────]
+              ─────────
+               | #MIEMBROS |
+    ╭─────────────────
+     |                                     |
+     |➪#Lista de admis: #listadmins       |                                                     
+     |                                     |
+     |➪#Link  del Gp: #link               |                                 
+     |_____________________________________|    
+          ╭─────────
+          |    #STICKER   |                                                  
+     ╭───────────────
+     |                                      |
+     |➪#Crear Sticker: #sticker            |
+     |                                      |
+     |➪#Sticker a lmg: #aimg               |
+     └─────[𝖔𝖙𝖆𝖐𝖚]───────
+
+     •••••••••••••••• ☾︎MULTIMEDIA☽︎•••••••••••••
+     DESCARGAS☆
+     |
+     |➪#Music Mp3: #ytmp3
+     |
+     |➪#Desc Videos: #ytmp4 [+link ]
+     |
+     |➪#Busc Imagenes: #imagen
+     |
+     |➪#Buscar Wp: #
+     |
+     |➪#Bus en Google: #google
+     |
+     |➪#Nombre de cancion: #quemusicaes
+     |    (+link)
+     |
+     |➪#Texto a Voz: #tts
+     |
+     |➪#Letras de cancion: #letra [+nombre]
+     |
+     |__________________ (𝖔𝖙𝖆𝖐𝖚)________________
+          ╭────────
+          |  #JUEGOS    |                                                       
+    ╭──────────────────────────
+    [                                          ]
+    [ENTRENAMIENTO✓                            ]
+    [                                          ]
+    [➪#Verdad o Reto: #vor                    ]
+    [                                          ] 
+    [__________________________________________]
+    
+
+`
 //ZONA DE COMANDOS	
 switch (command) {
 case 'welcome':
