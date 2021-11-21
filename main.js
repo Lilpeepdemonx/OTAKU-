@@ -322,17 +322,7 @@ message: {
 }})
 break
 //CONST
-const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
-    kma = gam1
-  const buttonMessages = {
-  locationMessage: {jpegThumbnail: kma},
-  contentText: text1,
-  footerText: desc1,
-  buttons: but,
-  headerType: 6
-  }
-  client.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
-  }		
+		
 case 'foto':
 const imagen = fs.readFileSync('./media/foto.jpg')                
 client.sendMessage(from, imagen, MessageType.image, {quoted: mek, caption: `*Aqui tienes la foto del trio fundado*`})
