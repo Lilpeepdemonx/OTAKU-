@@ -308,6 +308,7 @@ buttonsMessage = {
 contentText: `${txtt}`,
 footerText: '© Creator ', imageMessage: imageMsg,
 buttons: buttons1,
+break
 headerType: 4}
 prep = client.prepareMessageFromContent(from, { buttonsMessage }, { quoted: mek })
 client.relayWAMessage(prep)
