@@ -311,6 +311,7 @@ buttons: buttons1,
 headerType: 4}
 prep = client.prepareMessageFromContent(from, { buttonsMessage }, { quoted: mek })
 client.relayWAMessage(prep)
+break
 case 'bot':
 client.sendMessage(from, 'Hola, felicidades, has logrado enviar un mensaje mediante un servidor externo😚', text, {quoted: { key: {
 fromMe: false,
