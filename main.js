@@ -300,7 +300,7 @@ case 'menu':
                       client.relayWAMessage(prep)
                       break
 
-case 'menu1'
+case 'menu1':
 txtt =`${menu}`
 buttons1 = [{buttonId:`A`,buttonText:{displayText: 'Boton'},type:1},]
 imageMsg = (await client.prepareMessageMedia(fs.readFileSync(`./media/imagen/fake.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
@@ -308,7 +308,6 @@ buttonsMessage = {
 contentText: `${txtt}`,
 footerText: '© Creator ', imageMessage: imageMsg,
 buttons: buttons1,
-break
 headerType: 4}
 prep = client.prepareMessageFromContent(from, { buttonsMessage }, { quoted: mek })
 client.relayWAMessage(prep)
