@@ -1,5 +1,6 @@
 <p align="center">
-<img src="./media/images (3).jpeg" width="140" height="140"/></p>
+<img src="./media/loli.jpg" width="300" height="300"/>
+</p>
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: ꧁༒☬ＯＴＡＫＵৡ☬༒꧂
 
 ### MIS CONTACTOS
