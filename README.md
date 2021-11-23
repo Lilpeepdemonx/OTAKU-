@@ -29,6 +29,7 @@ Inicia la instalacion
 PARA INICIAR EL BOT
 
  ```bash
-- npm start
+- node main
+
 ```
 
