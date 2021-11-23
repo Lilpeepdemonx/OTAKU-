@@ -324,7 +324,7 @@ break
 //CONST
 		
 case 'foto':
-const imagen = fs.readFileSync('./media/foto.jpg')                
+const imagen = fs.readFileSync('./media/image(5).jpg')                
 client.sendMessage(from, imagen, MessageType.image, {quoted: mek, caption: `*Aqui tienes la foto del trio fundado*`})
 break
                 
