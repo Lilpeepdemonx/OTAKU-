@@ -14,7 +14,10 @@ const client = conn.client
 
 
 //Lib
-
+const owner = config.owner
+  const mods = config.mods
+  const fake = 'LEGIONARIO'
+  var public = config.public
 
 
 
