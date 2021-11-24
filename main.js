@@ -270,7 +270,18 @@ const menu =
     [                                          ] 
     [__________________________________________]
     
-
+//LEGIONARIO
+const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
+    kma = gam1
+  const buttonMessages = {
+  locationMessage: {jpegThumbnail: kma},
+  contentText: text1,
+  footerText: desc1,
+  buttons: but,
+  headerType: 6
+  }
+  client.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+  }
 `
 //ZONA DE COMANDOS	
 switch (command) {
