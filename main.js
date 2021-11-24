@@ -270,7 +270,8 @@ const menu =
     [                                          ] 
     [__________________________________________]
     
-//LEGIONARIO
+
+`//LEGIONARIO
 const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) => {
     kma = gam1
   const buttonMessages = {
@@ -282,8 +283,9 @@ const sendButLocation = async (id, text1, desc1, gam1, but = [], options = {}) =
   }
   client.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
   }
-`
-//ZONA DE COMANDOS	
+
+//ZONA DE COMANDOS
+	
 switch (command) {
 case 'welcome':
   case 'bv':
