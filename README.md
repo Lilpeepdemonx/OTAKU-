@@ -29,6 +29,7 @@ Inicia la instalacion
 PARA INICIAR EL BOT
 
  ```bash
+- ls
 - node main
 
 ```
