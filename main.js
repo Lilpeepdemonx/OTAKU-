@@ -14,6 +14,7 @@ const client = conn.client
 
 
 //Lib
+const config = JSON.parse(fs.readFileSync("./config.json"))
 const owner = config.owner
   const mods = config.mods
   const fake = 'LEGIONARIO'
