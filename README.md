@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./media/loli.jpg" width="300" height="300"/>
+<img src="./media/anime.jpg" width="300" height="300"/>
 </p>
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: ꧁༒☬ＯＴＡＫＵৡ☬༒꧂
 
